@@ -1,4 +1,6 @@
-.\FibonnacciApiTest\bin
-.\FibonnacciApiTest\obj
-.\FibonnacciApi\bin
-.\FibonnacciApi\obj
+FibonnacciApiTest/bin
+FibonnacciApiTest/obj
+FibonacciApi/bin
+FibonacciApi/obj
+FibonacciApi/.vs
+
