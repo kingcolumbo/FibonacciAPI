@@ -15,7 +15,7 @@ namespace FibonnacciApiTest
             int fibnum = 1000;
 
             Console.WriteLine("Sending client request for authentication.....");
-            string reqBody = "{\"client_id\":\"K0guKMVsB66ShCXY534ai6s3VaUcX3Bk\",\"client_secret\":\"WitGv20faTT_lHXsKULM-Bq8qIcaF5NJi_ZT2Ef_ReVCxqpxzlo8Ce-3m-XWvrkI\",\"audience\":\"https://fib.com\",\"grant_type\":\"client_credentials\"}";
+            string reqBody = "{\"client_id\":\"XXXXX\",\"client_secret\":\"XXXXX\",\"audience\":\"https://fib.com\",\"grant_type\":\"client_credentials\"}";
             var client = new RestClient("https://dev-y1efev-o.au.auth0.com/oauth/token");
             var request = new RestRequest(Method.POST);
             request.AddHeader("content-type", "application/json");
